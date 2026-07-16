@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Elizabeth's Eden</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="contact-page">
+      <section class="contact-card">
+        <h1>Contact Elizabeth's Eden</h1>
+        <p>I'd love to help bring flowers to your space. Please leave your details below or call me at <strong>708-890-1282</strong>.</p>
+
+        <form action="https://formsubmit.co/acdc2729@outlook.com" method="POST">
+          <input type="hidden" name="_next" value="contact.html" />
+          <input type="hidden" name="_captcha" value="false" />
+
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label for="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your garden or planting ideas."></textarea>
+
+          <button type="submit">Send message</button>
+        </form>
+
+        <a class="button secondary" href="index.html">Back to home</a>
+      </section>
+    </main>
+  </body>
+</html>
